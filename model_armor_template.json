@@ -1,0 +1,44 @@
+{
+  "createTime": "2026-03-02T17:53:41.805564684Z",
+  "filterConfig": {
+    "maliciousUriFilterSettings": {
+      "filterEnforcement": "ENABLED"
+    },
+    "piAndJailbreakFilterSettings": {
+      "confidenceLevel": "MEDIUM_AND_ABOVE",
+      "filterEnforcement": "ENABLED"
+    },
+    "raiSettings": {
+      "raiFilters": [
+        {
+          "confidenceLevel": "MEDIUM_AND_ABOVE",
+          "filterType": "HATE_SPEECH"
+        },
+        {
+          "confidenceLevel": "MEDIUM_AND_ABOVE",
+          "filterType": "DANGEROUS"
+        },
+        {
+          "confidenceLevel": "MEDIUM_AND_ABOVE",
+          "filterType": "SEXUALLY_EXPLICIT"
+        },
+        {
+          "confidenceLevel": "MEDIUM_AND_ABOVE",
+          "filterType": "HARASSMENT"
+        }
+      ]
+    },
+    "sdpSettings": {
+      "basicConfig": {
+        "filterEnforcement": "ENABLED"
+      }
+    }
+  },
+  "name": "projects/qwiklabs-gcp-01-5ff5d4c76902/locations/us/templates/Challenge_2_Hsullivan",
+  "templateMetadata": {
+    "multiLanguageDetection": {
+      "enableMultiLanguageDetection": true
+    }
+  },
+  "updateTime": "2026-03-02T17:53:42.035239466Z"
+}
